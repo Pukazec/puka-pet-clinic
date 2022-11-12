@@ -1,4 +1,4 @@
-package puka.springframework.pukapetclinic.model;
+package puka.springframework.model;
 
 public class Person {
 
