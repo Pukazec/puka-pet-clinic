@@ -1,10 +1,12 @@
 package puka.springframework.services.map;
 
+import org.springframework.stereotype.Service;
 import puka.springframework.model.Vet;
 import puka.springframework.services.VetService;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {

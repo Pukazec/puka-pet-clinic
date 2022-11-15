@@ -1,10 +1,12 @@
 package puka.springframework.services.map;
 
+import org.springframework.stereotype.Service;
 import puka.springframework.model.Pet;
 import puka.springframework.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
